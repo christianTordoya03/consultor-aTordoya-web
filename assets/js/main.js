@@ -45,7 +45,6 @@ accordionItems.forEach((item) =>{
 
     accordionHeader.addEventListener('click', () =>{
         const openItem = document.querySelector('.accordion-open')
-
         toggleItem(item)
 
         if(openItem && openItem!== item){
@@ -98,7 +97,7 @@ window.addEventListener('scroll', scrollUp)
 /*=============== DARK LIGHT THEME ===============*/ 
 const themeButton = document.getElementById('theme-button')
 const darkTheme = 'dark-theme'
-const iconTheme = 'ri-sun-line'
+const iconTheme = 'bx-sun'
 
 // Previously selected topic (if user selected)
 const selectedTheme = localStorage.getItem('selected-theme')
